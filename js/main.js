@@ -1,13 +1,15 @@
 $(document).ready(function(){
-	var d = new Date();
-	var n = d.getHours();
+	let d = new Date();
+	let n = d.getHours();
+  const picFrame = document.getElementById("picFrame")
+
 	if (n > 19 || n < 6)
 	  // If time is after 7PM or before 6AM, apply night theme to ‘body’
-	  document.body.className = "night";
+	  picFrame.className = "night";
 	else if (n > 16 && n < 19)
 	  // If time is between 4PM – 7PM sunset theme to ‘body’
-	  document.body.className = "sunset";
+	  picFrame.className = "sunset";
 	else
 	  // Else use ‘day’ theme
-	  document.body.className = "day";
+	  picFrame.className = "day";
 });

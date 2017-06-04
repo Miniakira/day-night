@@ -21,16 +21,19 @@ div {
   background: url('https://i.imgur.com/tNT0dZF.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 40vh;
 }
 
 .sunset {
   background: url('https://i.imgur.com/rIokRYt.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 40vh;
 }
 
 .night {
   background: url('https://i.imgur.com/2ldgHEf.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  height: 40vh;
 }
